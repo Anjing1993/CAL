@@ -1,0 +1,10 @@
+section{width:75%;margin:0 auto;}
+#per_con{width:980px;margin:0 auto;}
+#per_con h3{font-weight:bold;color:#5C5C5C;width:980px;height:60px;line-height:80px;font-size:24px;border-bottom:1px solid #9E9E9E;}
+#per_con p{float:right;position:relative;bottom:20px;font-size:12px;}
+#per_con p a{color:#5C5C5C;}
+#pass{clear:both;width:980px;margin-top:13px;overflow:hidden;min-height:800px;}
+#pass_tit{width:100%;height:60px;line-height:60px;text-align:center;}
+#pass_tit h4{font-size:20px;}
+#pass_detail{padding-top:20px;width:expression(document.body.clientWidth <= 980? "980px": "auto");
+    min-width:980px;font-size: 15px;line-height: 1.8em;text-indent:2em;width:980px;margin:auto;height:auto;margin-bottom:-32768px;padding-bottom:32768px;}

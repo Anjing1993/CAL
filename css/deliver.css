@@ -1,0 +1,21 @@
+section{width:75%;height:1300px;margin:auto;}
+#mianshi_con{width:980px;margin:0 auto;}
+#mianshi_con h3{font-weight:bold;color:#5C5C5C;width:980px;height:60px;line-height:80px;font-size:24px;border-bottom:1px solid #9E9E9E;}
+#mianshi_con p{float:right;position:relative;bottom:20px;font-size:12px;}
+#mianshi_con p span{margin:0 5px 0 5px;}
+#fm{width:630px;margin:40px auto;height:200px;}
+label{width:170px;height:40px;line-height:40px;display:block;}
+input{border:1px solid #d8d8d8;border-radius:5px;width:420px;height:30px;margin-left:50px;}
+#btn{width:10px;height:10px;}
+#fm form span{margin-left:50px;}
+#fm form h4{width:600px;height:30px;line-height:30px;font-weight:normal;}
+#fm form h4 span{font-size:12px;}
+
+select{border:1px solid #d8d8d8;border-radius:5px;width:340px;height:30px;margin-left:50px;}
+textarea{margin-top:10px;height:100px;width:500px;border:1px solid #d8d8d8;border-radius:5px;}
+#sum_div{width:450px;margin:25px auto;}
+#sum{width:100px;height:40px;text-align:center;}
+
+#fir img{width:45px;height:45px;padding-left:2px;float:left;}
+#fm span{font-size:11px;}
+#sec{width:502px;height:56px;float:left;padding-top:1px;padding-left:3px;}

@@ -1,0 +1,24 @@
+section{width:75%;margin:0 auto;}
+
+
+#e3{display:none;}
+#e1_content  #pic_list{margin-left:40px; width:800px;margin-top:120px;}
+#e1_content  #pic_list ul{width:780px;margin:20px auto;}
+#e1_content  #pic_list ul li{float:left;margin-left:25px;text-align:center;border:1px solid #d8d8d8;margin-top:20px;padding:2px 2px;}
+#e1_content  #pic_list ul li p{margin:0 auto;width:80px;margin-bottom:5px;}
+
+
+#per_con{width:980px;margin:0 auto;height:700px;}
+#per_con h3{font-weight:bold;color:#5C5C5C;height:60px;line-height:80px;font-size:24px;border-bottom:1px solid #9E9E9E;}
+#per_con p{float:right;position:relative;bottom:20px;font-size:12px;}
+#per_con #pic_list{width:980px;}
+.play { width:980px; height: 400px; overflow: hidden; position: relative;top:40px; }
+
+ol { position: absolute; right: 5px; bottom: 5px; z-index: 2; }
+ol li { float: left; margin-right: 3px; display: inline; cursor: pointer; background: #fcf2cf; border: 1px solid #f47500; padding: 2px 6px; color: #d94b01; font-family: arial; font-size: 12px; }
+.active { padding: 3px 8px; font-weight: bold; color: #ffffff; background: #ffb442; position: relative; bottom: 2px; }
+#per_con ul { position: absolute; top: 0; left: 0; z-index: 1; }
+#per_con ul li { width: 980px; height: 414px; float: left; }
+#per_con ul img { float: left; width: 980px; height: 414px;margin:aotu; }
+
+#fir img{width:45px;height:45px;padding-left:2px;float:left;}

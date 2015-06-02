@@ -1,0 +1,73 @@
+
+section{width:75%;margin:auto;}
+#intro_con{width:980px;margin:0 auto;}
+#intro_con h3{font-weight:bold;color:#5C5C5C;width:980px;height:60px;line-height:80px;font-size:24px;border-bottom:1px solid #9E9E9E;}#mianshi_con p{float:right;position:relative;bottom:20px;font-size:12px;}
+#intro_con p{float:right;position:relative;bottom:20px;font-size:12px;}
+#intro_con p span{margin:0 5px 0 5px;}
+#intro_con p a{color:#5C5C5C;}
+#page{width:980px;margin:30px auto;}
+
+.nav_menu{float:left;width:15%;background:#30A3C5;height:89px;font-size:15px;font-family: '微软雅黑';}
+.nav_menu dl{border-bottom:1px solid #161E38;}
+.nav_menu dl dt{padding-top:5px;}
+.nav_menu dl  #one{background:gerrn;}
+.nav_menu dl dt a{height:39px;line-height:39px;overflow:hidden;color:white;font-weight:800;}
+.nav_menu dl dt a:hover, .nav_menu dl dt a:visited{color:#5C5C5C;}
+.nav_menu dl dt a{color: #FFF; display: block; -webkit-transition: all 1s; -moz-transition: all 1s; -o-transition: all 1s; transition: all 1s }
+.nav_menu dl dt a:hover { background: rgba(255,255,255,0.2); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); }
+
+.nav_menu dl dt a span{display:inline-block;width:13px;height:15px;overflow:hidden;float:left;}
+.nav_menu dl dd li{text-align:center;background:#0071C5;border-top:1px solid #161E38;height:30px;line-height:30px;}
+.nav_menu dl dd li a:link{color:black;}
+.nav_menu dl dd li a:hover,.nav_menu dl dd li a:visited{color:white;}
+
+
+#content{width:85%;float:right;}
+
+#content #e1{display:block;height:950px;height:100%;}
+#content  #tit{  width:800px;height:40px;line-height:40px;font-size:24px;margin:0 0 0 40px;color:#30A3C5;}
+#content  p{margin:5px 0 0 40px;}
+#content  p span{color:#0071C5;}
+#content #e1_content{padding-bottom:0;}
+#content #e1 #intro_tit{ margin-left:20px; width:833px;height:100px;margin-top:35px;font-size:15px;}
+#content #e1 #intro_tit dl{margin-top:8px;clear:both;width:300px;height:20px;margin-left:20px;}
+#content #e1 #intro_tit dl dd{float:left;width:100px;}
+#content #e1 #intro_tit dl dt{float:left;width:200px;}
+#intro_tit_right{width:200px;height:100px;margin-top:30px;position:relative;bottom:132px;left:500px;}
+#content #e1 #intro_tit_right dl{margin-top:8px;clear:both;width:300px;height:20px;margin-left:20px;}
+#content #e1 #intro_tit_right dl dd{float:left;width:100px;}
+#content #e1 #intro_tit_right dl dt{float:left;width:200px;}
+#content #e1 #intro_content{width:813px;position:relative;bottom:80px;}
+#content #e1 #intro_content p{margin-top:10px;text-indent:2em;line-height: 1.8em;font-size:15px;}
+#content #e1 #intro_content #date{width:800px;height:50px;margin-top:30px;}
+#content #e1 #intro_content time{width:800px;height:20px;line-height:20px;float:left;margin:5px 0 0 40px;}
+
+
+#content #e2{display:none;}
+#content #e2 #tit{float:left;height:50px;line-height:25px;margin-top:10px;}
+#content #e2 #tit span{font-size:20px;color:#5C5C5C;}
+#content #e2_content{margin-bottom:100px;}
+#qianduan,#php,#java{clear:both;width:800px;height:300px;margin:0 auto;margin-top:30px;}
+#qianduan img,#php img,#java img{padding:20px 0 0 20px;_margin-left:40px;}
+#qianduan #branch_content,#php #branch_content,#java #branch_content{margin-top:20px;width:580px;_position:relative;_bottom:300px;_left:40px;float:right;}
+#qianduan #branch_content h3,#php #branch_content h3,#java #branch_content h3{margin-left:40px;}
+#qianduan #branch_content p,#php #branch_content p,#java #branch_content p{text-indent:2em;font-size: 15px; line-height:1.8em;}
+
+ img{ transition:All 0.4s ease-in-out; -webkit-transition:All 0.4s ease-in-out;-moz-transition:All 0.4s ease-in-out;-o-transition:All 0.4s ease-in-out;}
+img:hover {transform:scale(1.2);-webkit-transform:scale(1.0);-moz-transform:scale(1.1);-o-transform:scale(1.2);-ms-transform:scale(1.2);}
+
+
+
+#content #e3{display:none;}
+#content  #pic_list{margin-left:40px; width:800px;height:200px;}
+#content  #pic_list ul{width:780px;margin:20px auto;}
+#content  #pic_list ul li{float:left;margin-left:25px;text-align:center;border:1px solid #d8d8d8;margin-top:20px;padding:2px 2px;}
+#content  #pic_list ul li p{margin:0 auto;width:80px;margin-bottom:5px;}
+#content #e4, #content #e5, #content #e6, #content #e7, #content #e8{display:none;}
+
+#fir img{width:45px;height:45px;padding-left:2px;float:left;}
+
+
+
+
+

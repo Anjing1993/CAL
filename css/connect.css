@@ -1,0 +1,10 @@
+section{width:75%;margin:auto;}
+#con_con{width:980px;margin:0 auto;height:700px;}
+#con_con h3{font-weight:bold;color:#5C5C5C;width:980px;height:60px;line-height:80px;font-size:24px;border-bottom:1px solid #9E9E9E;}
+#con_con p{float:right;position:relative;bottom:20px;font-size:12px;}
+#con_detail{width:410px;height:300px;margin:30px auto;}
+#con_detail h4{width:410px;height:40px;line-height:40px;}
+#con_con #con_detail #tel time{margin-left:20px;font-size:15px;width:180px;height:40px;line-height:40px;}
+#tel{width:410px;}
+#wei{position:absolute;margin-left:200px;}
+#wei img{width:100px;height:100px;}

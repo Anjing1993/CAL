@@ -1,0 +1,22 @@
+section{width:75%;margin:0 auto;}
+#liucheng{width:980px;height:150px;margin:auto;}
+#liucheng h3, #faq h3{font-size: 24px;font-weight: bold;height: 70px;line-height: 100px;width: 980px;color:#30A3C5;float:left;}
+#liucheng  #liucheng_pic{width:700px;height:130px;margin:0 auto;}
+#liucheng_pic ul{width:700px;margin:0 auto;}
+#liucheng_pic ul li{font-size:18px;font-weight:bold;float:left;width:130px;height:140px;line-height:140px;text-align:center;margin-left:10px;}
+#liucheng_pic ul #li1{background:url(../images/q1.gif);}
+#liucheng_pic ul #li2{background:url(../images/q2.gif);}
+#liucheng_pic ul #li3{background:url(../images/q3.gif);}
+#liucheng_pic ul #li4{background:url(../images/q4.gif);}
+#liucheng_pic ul #li5{background:url(../images/q5.gif);}
+#faq{width:980px;margin-top:40px;margin-left:20px;margin:auto;}
+#faq_con{margin:auto;width:100%;margin-left:12px;clear:both;}
+#faq #q_a{width:950px;margin:40px auto;}
+#faq #q_a span img{width:18px;height:18px;margin-right:5px;padding-top:10px;}
+#faq #q_a p{font-size:15px;text-indent:2em;line-height:1.8em;margin-top:10px;}
+#faq #bot{width:950px;border-bottom:1px dashed #d8d8d8;margin-top:20px;}
+#more{width:950px;height:190px;margin:0 auto;}
+#more span{width:950px;color:red;display:block;margin-top:30px;}
+
+#fir img{width:45px;height:45px;padding-left:2px;float:left;}
+

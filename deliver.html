@@ -1,0 +1,123 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base href="<%=basePath%>">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"content="width=device-width, initial-scale=1" />
+<title>面试信息&nbsp;|&nbsp;计算机技术应用协会实验室</title>
+<link type="text/css" href="css/base.css" rel="stylesheet" />
+<link type="text/css" href="css/deliver.css" rel="stylesheet" />
+<script type="javascript">
+
+	function validateSubmit()
+	{
+		var username=document.getElementById("");
+	}
+
+</script><script src="js/collect.js"></script>
+<script src="js/check.js"></script>
+
+<!--[if lt IE 9]> 
+<script> 
+   (function() {
+     if (! 
+     /*@cc_on!@*/
+     0) return;
+     var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+     var i= e.length;
+     while (i--){
+         document.createElement(e[i])
+     } 
+})() 
+</script>
+<![endif]--><!-- ========================================== AJAX处理 ======================================== -->
+
+<!-- ========================================================================================== -->
+</head>
+<header>
+    		  
+           <nav>
+               <div id="banner">
+                    <div id="logo">
+                        <img src="images/1.png"/>
+                       
+                    </div>
+               
+                
+                </div>   
+                <ul id="nav">
+                    <li ><a href="index.jsp">首页</a></li>
+                    <li><a href="introduce.jsp">实验室简介</a></li>
+                    <li><a href="person.jsp">实验室成员</a></li>
+                    <li><a href="present.jsp">实验室作品</a></li>
+                    
+                    
+                </ul>
+            	<div id="collect" onclick="AddFavorite(window.location,document.title)"><span>收藏</span></div>
+          </nav>      
+       
+        
+    </header>
+    <div id="box">
+    <section>
+    	<div id="mianshi_con">
+        	<h3>面试信息</h3>
+            <p>实验室纳新<span>></span>信息填写</p>
+            <div id="fm">
+            <form name="form" id="form" action="deliver/add.do" method="post" onsubmit="return formchk()">
+            	<label>姓名：</label>
+                <input type="text" id="name" name="name" onblur="check_name()"/><span ></span><br />
+                <label>学号：</label>
+                <input type="text" id="studentId" name="studentId" onblur="check_stud_id()"><span ></span><br />
+                <label>性别：</label>
+                <span>男</span><input id="btn" type="radio" name="sex" value="男"/>
+                <span>女</span><input id="btn" type="radio" name="sex" value="女"/>
+                <br />
+                <label>专业班级：</label>
+                <input type="text" id="major" name="major" onblur="check_zhuanye()"/><span ></span><br />
+                <label>联系电话：</label>
+                <input type="text" id="tel" name="tel" onblur="check_tel()"/><span ></span><br />
+                <label>QQ：</label>
+                <input type="text" id="qq" name="qq" onblur="check_qq()"/><span ></span><br />
+                
+                <label>电子邮件：</label>
+                <input type="text" id="email" name="email" onblur="check_email()"/><span ></span><br />
+                <h4>选择方向</h4>
+                <div id="se">
+                   
+                    <select name="department1" id="department1" onchange="check_select()">
+                        	<option value="0" selected="selected">---请选择方向---</option><span></span>
+                        
+							<option value="前端部">WEB前端开发</option>
+							<option value="Java部">Java后台开发</option>
+							<option value="后台部">PHP后台开发</option>
+							
+							
+                    </select><br />
+                   <br />
+                    <h4>报名理由：</h4>
+                    
+                    <textarea type="text" id="description" name="description" onblur="check_texta()"></textarea><span></span>
+                    <div id="sum_div">
+                        <input type="submit" id="sum" value="提交" />
+                        <input type="reset" id="sum" value="重填"/>
+                    </div>
+            	</div>
+                
+            </form>
+            </div>
+        </div>
+    </section>
+    </div>
+    
+    <footer>
+    	<p>
+			关于实验室 | 服务条款 | 实验室成品 | 实验室纳新 | 实验室成员 | 客服中心</p>
+		<address>Copyright © CAL. All Rights Reserved.</address>
+
+    </footer>
+
+<body>
+</body>
+</html>
